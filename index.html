@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Farah Eltawansy — IT & Business Information Systems</title>
+<style>
+:root{--bg:#faf7f5;--surface:#fff;--text:#1f1a1d;--muted:#6b6168;--accent:#c2416b;--line:#e8dfe3;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#17131a;--surface:#211b25;--text:#f3edf1;--muted:#a99da6;--accent:#f07ba3;--line:#352c3a;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#17131a;--surface:#211b25;--text:#f3edf1;--muted:#a99da6;--accent:#f07ba3;--line:#352c3a;color-scheme:dark}
+html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 "Segoe UI",system-ui,-apple-system,Helvetica,Arial,sans-serif}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:960px;margin:0 auto;padding:0 22px}
+header{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);border-bottom:1px solid var(--line);z-index:5}
+nav{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 0;flex-wrap:wrap}
+.logo{font-weight:700;letter-spacing:.08em;color:var(--accent)}
+nav ul{display:flex;gap:18px;list-style:none;margin:0;padding:0;font-size:14px;color:var(--muted)}
+nav a:hover{color:var(--accent)}
+button{font:inherit;cursor:pointer;background:var(--surface);color:var(--text);border:1px solid var(--line);border-radius:999px;padding:6px 14px}
+.hero{padding:80px 0 56px}
+.tag{color:var(--accent);font-size:13px;letter-spacing:.12em;text-transform:uppercase}
+h1{font-size:clamp(38px,8vw,68px);line-height:1.05;margin:10px 0 14px}
+.sub{font-size:clamp(18px,3vw,22px);color:var(--muted);max-width:620px;margin:0 0 24px}
+.meta{display:flex;flex-wrap:wrap;gap:10px 28px;color:var(--muted);font-size:14px;margin-bottom:28px}
+.meta b{color:var(--text)}
+.btn{display:inline-block;padding:11px 22px;border-radius:999px;border:1px solid var(--accent);margin:0 10px 10px 0;font-weight:600}
+.btn.fill{background:var(--accent);color:#fff}
+section{padding:56px 0;border-top:1px solid var(--line)}
+h2{font-size:clamp(26px,5vw,36px);margin:6px 0 24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:22px}
+.card h3{margin:4px 0 8px;font-size:19px}
+.card p{margin:0;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:6px 14px;font-size:14px}
+.todo{border-style:dashed}
+footer{padding:40px 0;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+</style>
+</head>
+<body>
+<header><div class="wrap"><nav>
+<span class="logo">FE // PORTFOLIO</span>
+<ul><li><a href="#about">About</a></li><li><a href="#projects">Projects</a></li><li><a href="#skills">Skills</a></li><li><a href="#education">Education</a></li><li><a href="#contact">Contact</a></li></ul>
+<button id="theme" type="button">Theme</button>
+</nav></div></header>
+
+<main class="wrap">
+<div class="hero">
+<span class="tag">Profile · 2026</span>
+<h1>Farah Eltawansy</h1>
+<p class="sub">IT &amp; Business Information Systems student, connecting technology with real business needs.</p>
+<div class="meta"><span><b>Age:</b> 20</span><span><b>Studying:</b> Business Information Systems, CIC</span><span><b>Based in:</b> Egypt</span></div>
+<a class="btn fill" href="https://www.linkedin.com/in/farah-mohamed-65a5b62b4" target="_blank" rel="noopener">LinkedIn</a>
+<a class="btn" href="https://github.com/Farahheltawansyy" target="_blank" rel="noopener">GitHub</a>
+</div>
+
+<section id="about">
+<span class="tag">About</span><h2>A little about me</h2>
+<p style="max-width:680px;color:var(--muted)">I’m a 20-year-old IT student at the Canadian International College (CIC), studying Business Information Systems. I enjoy understanding how businesses work and using technology to make their processes smarter and simpler. I’m looking for internships and opportunities where I can learn, contribute and grow.</p>
+</section>
+
+<section id="projects">
+<span class="tag">Selected work</span><h2>Projects</h2>
+<div class="grid">
+<div class="card" style="grid-column:1/-1"><span class="tag">2025 · Business plan &amp; presentation</span><h3>LocusApollo — Universal Asset Tracking for Every Space</h3>
+<p><b style="color:var(--text)">Problem:</b> organizations lose time and money on misplaced assets, from lab equipment in universities to medical devices in hospitals.</p>
+<p style="margin-top:8px"><b style="color:var(--text)">Solution:</b> an AI-powered, IoT-based real-time tracking platform that helps users quickly and accurately recover lost items.</p>
+<p style="margin-top:8px"><b style="color:var(--text)">What the deck covers:</b> executive summary, industry analysis, vision &amp; mission, SWOT, market research, marketing segment and the 4Ps marketing mix.</p>
+<div class="chips" style="margin-top:14px"><span class="chip">Market research</span><span class="chip">SWOT analysis</span><span class="chip">Marketing mix (4Ps)</span><span class="chip">PowerPoint</span></div></div>
+</div>
+</section>
+
+<section id="skills">
+<span class="tag">Skills</span><h2>What I bring</h2>
+<h3 style="font-size:15px;color:var(--muted);margin:0 0 10px">Product</h3>
+<div class="chips"><span class="chip">Backlog prioritization</span><span class="chip">User story writing</span><span class="chip">Stakeholder communication</span><span class="chip">Agile / Scrum</span><span class="chip">Data-informed decisions</span><span class="chip">Cross-functional coordination</span><span class="chip">UI/UX feedback loops</span></div>
+<h3 style="font-size:15px;color:var(--muted);margin:22px 0 10px">Technical fluency</h3>
+<div class="chips"><span class="chip">Swift (iOS)</span><span class="chip">Kotlin (Android)</span><span class="chip">Flutter</span><span class="chip">HTML / CSS / JS</span><span class="chip">PHP</span><span class="chip">MySQL</span><span class="chip">Git / GitHub</span><span class="chip">QA &amp; bug reporting</span></div>
+<h3 style="font-size:15px;color:var(--muted);margin:22px 0 10px">Marketing &amp; business</h3>
+<div class="chips"><span class="chip">Marketing strategy</span><span class="chip">Market research</span><span class="chip">SWOT analysis</span><span class="chip">Marketing mix (4Ps)</span><span class="chip">Presentation design</span><span class="chip">Teamwork</span></div>
+</section>
+
+<section id="education">
+<span class="tag">Background</span><h2>Education &amp; activities</h2>
+<div class="grid">
+<div class="card"><h3>Business Information Systems (IT)</h3><p>Canadian International College (CIC) · Currently studying</p></div>
+<div class="card"><h3>Marketing Department</h3><p>Microsoft CIC Student Club — student activity at CIC.</p></div>
+</div>
+</section>
+
+<section id="contact">
+<span class="tag">Contact</span><h2>Let’s connect</h2>
+<p style="color:var(--muted)">Open to internships, collaborations and conversations.</p>
+<a class="btn fill" href="https://www.linkedin.com/in/farah-mohamed-65a5b62b4" target="_blank" rel="noopener">LinkedIn</a>
+<a class="btn" href="https://github.com/Farahheltawansyy" target="_blank" rel="noopener">GitHub</a>
+</section>
+</main>
+
+<footer><div class="wrap">© 2026 Farah Eltawansy</div></footer>
+
+<script>
+(function(){
+var r=document.documentElement;
+try{var t=localStorage.getItem("theme");if(t)r.setAttribute("data-theme",t)}catch(e){}
+document.getElementById("theme").addEventListener("click",function(){
+var dark=r.getAttribute("data-theme")==="dark"||(!r.getAttribute("data-theme")&&matchMedia("(prefers-color-scheme: dark)").matches);
+var n=dark?"light":"dark";r.setAttribute("data-theme",n);
+try{localStorage.setItem("theme",n)}catch(e){}
+});
+})();
+</script>
+</body>
+</html>
